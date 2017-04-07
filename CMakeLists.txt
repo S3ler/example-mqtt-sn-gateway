@@ -8,7 +8,8 @@ include_directories(src/Implementation)
 include_directories(src/main)
 
 set(IMPLEMENTATIONL_FILES
-        src/Implementation/MqttBrokerImplementation.cpp src/Implementation/MqttBrokerImplementation.h
+        src/Implementation/MqttBrokerImplementation.cpp
+	src/Implementation/MqttBrokerImplementation.h
         src/Implementation/SocketImplementation.cpp
         src/Implementation/SocketImplementation.h
         src/Implementation/SystemImplementation.cpp

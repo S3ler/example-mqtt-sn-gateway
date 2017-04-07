@@ -3,7 +3,7 @@
 This is an example implementation of the [core components](https://github.com/S3ler/core-mqtt-sn-gateway) for the mqtt-sn gateway. There is no functionality implemented. It shall only give an example structure on how to start implementing the gateway for your hardware.
 
 ## Implementation notes
-Basically this project only provides non functional implementation of the 5 interface classes, namely SocketInterface, MqttMessageHandlerInterface, System, LoggerInterface and PersistenceInterface. For the documentation of the interfaces see the [core-mqtt-sn-gateway](https://github.com/S3ler/core-mqtt-sn-gateway) project
+Basically this project only provides non functional implementation of the 5 interface classes, namely SocketInterface, MqttMessageHandlerInterface, System, LoggerInterface and PersistenceInterface. For the documentation of the interfaces see the [core-mqtt-sn-gateway](https://github.com/S3ler/core-mqtt-sn-gateway) project.
 
 ![SocketInheritance](doc/SocketInheritance.png)
 
@@ -25,8 +25,9 @@ then change into folder
 
     cd example-mqtt-sn-gateway
 
-finally init submodules
+finally init/update submodules
 
+    git submodule init
     git submodule update
 
 done.
