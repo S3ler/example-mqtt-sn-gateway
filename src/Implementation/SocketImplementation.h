@@ -6,9 +6,10 @@
 #define CORE_MQTT_SN_GATEWAY_SOCKETIMPLEMENTATION_H
 
 
-#include "../SocketInterface.h"
+#include <SocketInterface.h>
 
 class SocketImplementation : public SocketInterface {
+
 public:
     bool begin() override;
 

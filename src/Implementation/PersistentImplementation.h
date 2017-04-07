@@ -6,7 +6,7 @@
 #define CORE_MQTT_SN_GATEWAY_PERSISTENTIMPLEMENTATION_H
 
 
-#include "../PersistentInterface.h"
+#include <PersistentInterface.h>
 
 class PersistentImplementation : public PersistentInterface {
 public:

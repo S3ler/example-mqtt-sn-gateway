@@ -6,7 +6,7 @@
 #define CORE_MQTT_SN_GATEWAY_SYSTEMIMPLEMENTATION_H
 
 
-#include "../System.h"
+#include <System.h>
 
 class SystemImplementation : public System {
 public:

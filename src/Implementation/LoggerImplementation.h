@@ -6,9 +6,10 @@
 #define CORE_MQTT_SN_GATEWAY_LOGGERIMPLEMENTATION_H
 
 
-#include "../LoggerInterface.h"
+#include <LoggerInterface.h>
 
 class LoggerImplementation : public LoggerInterface {
+
 public:
     bool begin() override;
 

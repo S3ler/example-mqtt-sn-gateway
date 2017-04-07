@@ -6,7 +6,7 @@
 #define CORE_MQTT_SN_GATEWAY_MQTTBROKERIMPLEMENTATION_H
 
 
-#include "../MqttMessageHandlerInterface.h"
+#include <MqttMessageHandlerInterface.h>
 
 class MqttBrokerImplementation : public MqttMessageHandlerInterface {
 public:
